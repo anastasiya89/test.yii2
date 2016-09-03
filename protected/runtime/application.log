@@ -1,0 +1,659 @@
+2016/09/02 10:02:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/default/index
+---
+2016/09/02 10:02:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): CrudCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/crud/index
+HTTP_REFERER=http://yii2/index.php/gii/controller/index
+---
+2016/09/02 10:02:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/controller/index
+---
+2016/09/02 10:06:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/
+---
+2016/09/02 10:06:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/module/index
+---
+2016/09/02 10:13:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/form/index
+---
+2016/09/02 10:17:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/module/index
+---
+2016/09/02 10:17:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/default/index
+---
+2016/09/02 10:23:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/default/index
+---
+2016/09/02 10:24:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+HTTP_REFERER=http://yii2/index.php/gii/default/index
+---
+2016/09/02 12:47:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'capital_swift'' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+---
+2016/09/02 12:47:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php:387
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CFormModel.php(39): ModelCode->init()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php/gii/model/index
+---
+2016/09/03 11:48:10 [error] [php] explode(): Empty delimiter (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php:28)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php(8): TestingController->actionFile()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): TestingController->actionIndex()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): TestingController->runAction()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): TestingController->runActionWithFilters()
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): TestingController->run()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/Testing
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php (28)
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php (16)
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php (8)
+2016/09/03 11:48:34 [error] [php] explode(): Empty delimiter (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php:28)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php(8): TestingController->actionFile()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): TestingController->actionIndex()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): TestingController->runAction()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): TestingController->runActionWithFilters()
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): TestingController->run()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/Testing
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php (28)
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php (16)
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php (8)
+2016/09/03 12:09:11 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TestingController.".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php(10): CComponent->__get('')
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): TestingController->actionIndex()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('Testing')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/Testing
+HTTP_REFERER=http://yii2/index.php/gii/controller/index
+---
+2016/09/03 12:11:27 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TestingController.Array".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php(15): CComponent->__get('Array')
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): TestingController->actionIndex()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('Testing')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/Testing
+HTTP_REFERER=http://yii2/index.php/gii/controller/index
+---
+2016/09/03 12:11:55 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TestingController.Array".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\TestingController.php(15): CComponent->__get('Array')
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): TestingController->actionIndex()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('Testing')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/Testing
+HTTP_REFERER=http://yii2/index.php/gii/controller/index
+---
+2016/09/03 17:47:10 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} u 
+			INNER JOIN user_profile u_p
+			ON u_p.user_id = u.id
+			INNER JOIN user_' at line 3. Выполнявшийся SQL-запрос: SELECT u.id, u.email, u_p.name, u_p.patronymic, u_p.surname, u_p.money, 
+	 		u_t.user_id as tokens
+			FROM {user} u 
+			INNER JOIN user_profile u_p
+			ON u_p.user_id = u.id
+			INNER JOIN user_token u_t
+			ON u_t.user_id = u.id
+			WHERE u.is_active = :is_active
+			GROUP BY id.
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (18)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 17:47:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} u 
+			INNER JOIN user_profile u_p
+			ON u_p.user_id = u.id
+			INNER JOIN user_' at line 3. The SQL statement executed was: SELECT u.id, u.email, u_p.name, u_p.patronymic, u_p.surname, u_p.money, 
+	 		u_t.user_id as tokens
+			FROM {user} u 
+			INNER JOIN user_profile u_p
+			ON u_p.user_id = u.id
+			INNER JOIN user_token u_t
+			ON u_t.user_id = u.id
+			WHERE u.is_active = :is_active
+			GROUP BY id' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(18): CActiveRecord->findAllBySql('SELECT u.id, u....', Array)
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 17:48:18 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} u 
+			INNER JOIN {user_profile} u_p
+			ON u_p.user_id = u.id
+			INNER JOIN {us' at line 3. Выполнявшийся SQL-запрос: SELECT u.id, u.email, u_p.name, u_p.patronymic, u_p.surname, u_p.money, 
+	 		u_t.user_id as tokens
+			FROM {user} u 
+			INNER JOIN {user_profile} u_p
+			ON u_p.user_id = u.id
+			INNER JOIN {user_token} u_t
+			ON u_t.user_id = u.id
+			WHERE u.is_active = :is_active
+			GROUP BY id.
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (18)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 17:48:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} u 
+			INNER JOIN {user_profile} u_p
+			ON u_p.user_id = u.id
+			INNER JOIN {us' at line 3. The SQL statement executed was: SELECT u.id, u.email, u_p.name, u_p.patronymic, u_p.surname, u_p.money, 
+	 		u_t.user_id as tokens
+			FROM {user} u 
+			INNER JOIN {user_profile} u_p
+			ON u_p.user_id = u.id
+			INNER JOIN {user_token} u_t
+			ON u_t.user_id = u.id
+			WHERE u.is_active = :is_active
+			GROUP BY id' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(1586): CDbCommand->queryAll()
+#2 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(18): CActiveRecord->findAllBySql('SELECT u.id, u....', Array)
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 18:23:58 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\framework\db\schema\CDbCommandBuilder.php:673)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (10)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 18:31:40 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:13)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (13)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 18:31:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.user_id".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_id')
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\base\CModel.php(596): CActiveRecord->__get('user_id')
+#2 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(14): CModel->offsetGet('user_id')
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 18:32:07 [error] [php] Object of class User could not be converted to string (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:14)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (14)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 18:33:28 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:13)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (13)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 18:33:39 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:13)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (13)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 18:33:55 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:13)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (13)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:00:03 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.token".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('token')
+#1 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(13): CActiveRecord->__get('token')
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 19:01:14 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.user_id".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_id')
+#1 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(13): CActiveRecord->__get('user_id')
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 19:07:46 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:15)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:08:08 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:15)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:08:48 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:15)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:08:54 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:15)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:09:11 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:15)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:12:00 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous. Выполнявшийся SQL-запрос: SELECT `t`.`id` AS `t0_c0`, `t`.`email` AS `t0_c1`, `t`.`password_hash` AS `t0_c2`, `t`.`is_active` AS `t0_c3`, `t`.`date_created` AS `t0_c4`, `t`.`date_edited` AS `t0_c5`, `user_token`.`id` AS `t1_c0`, `user_token`.`user_id` AS `t1_c1`, `user_token`.`token` AS `t1_c2`, `user_token`.`date_expiry` AS `t1_c3`, `user_token`.`date_created` AS `t1_c4`, `user_token`.`date_edited` AS `t1_c5` FROM `user` `t`  LEFT OUTER JOIN `user_token` `user_token` ON (`user_token`.`user_id`=`t`.`id`) WHERE (id=:id).
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (12)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:12:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`email` AS `t0_c1`, `t`.`password_hash` AS `t0_c2`, `t`.`is_active` AS `t0_c3`, `t`.`date_created` AS `t0_c4`, `t`.`date_edited` AS `t0_c5`, `user_token`.`id` AS `t1_c0`, `user_token`.`user_id` AS `t1_c1`, `user_token`.`token` AS `t1_c2`, `user_token`.`date_expiry` AS `t1_c3`, `user_token`.`date_created` AS `t1_c4`, `user_token`.`date_edited` AS `t1_c5` FROM `user` `t`  LEFT OUTER JOIN `user_token` `user_token` ON (`user_token`.`user_id`=`t`.`id`) WHERE (id=:id)' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveFinder.php(440): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(1361): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(12): CActiveRecord->find('id=:id', Array)
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 19:14:34 [error] [system.db.CDbCommand] Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. Выполнявшийся SQL-запрос: SELECT `t`.`id` AS `t0_c0`, `t`.`email` AS `t0_c1`, `t`.`password_hash` AS `t0_c2`, `t`.`is_active` AS `t0_c3`, `t`.`date_created` AS `t0_c4`, `t`.`date_edited` AS `t0_c5`, `user_token`.`id` AS `t1_c0`, `user_token`.`user_id` AS `t1_c1`, `user_token`.`token` AS `t1_c2`, `user_token`.`date_expiry` AS `t1_c3`, `user_token`.`date_created` AS `t1_c4`, `user_token`.`date_edited` AS `t1_c5` FROM `user` `t`  LEFT OUTER JOIN `user_token` `user_token` ON (`user_token`.`user_id`=`t`.`id`) WHERE (`t`.`id`=:yp0 AND (status=1)).
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:14:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand не удалось исполнить SQL-запрос: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`email` AS `t0_c1`, `t`.`password_hash` AS `t0_c2`, `t`.`is_active` AS `t0_c3`, `t`.`date_created` AS `t0_c4`, `t`.`date_edited` AS `t0_c5`, `user_token`.`id` AS `t1_c0`, `user_token`.`user_id` AS `t1_c1`, `user_token`.`token` AS `t1_c2`, `user_token`.`date_expiry` AS `t1_c3`, `user_token`.`date_created` AS `t1_c4`, `user_token`.`date_edited` AS `t1_c5` FROM `user` `t`  LEFT OUTER JOIN `user_token` `user_token` ON (`user_token`.`user_id`=`t`.`id`) WHERE (`t`.`id`=:yp0 AND (status=1))' in D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveFinder.php(440): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(1361): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(1524): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(15): CActiveRecord->findByAttributes(Array, 'status=1')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#13 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php/user
+---
+2016/09/03 19:22:10 [error] [php] Invalid argument supplied for foreach() (D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php:15)
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): UserController->runAction()
+#1 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): UserController->run()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/user
+in D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php (15)
+in D:\OpenServer\OpenServer\domains\yii2\index.php (13)
+2016/09/03 19:30:52 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.name".' in D:\OpenServer\OpenServer\domains\yii2\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\OpenServer\OpenServer\domains\yii2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 D:\OpenServer\OpenServer\domains\yii2\protected\controllers\UserController.php(14): CActiveRecord->__get('name')
+#2 D:\OpenServer\OpenServer\domains\yii2\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\OpenServer\OpenServer\domains\yii2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\OpenServer\OpenServer\domains\yii2\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#8 D:\OpenServer\OpenServer\domains\yii2\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\OpenServer\OpenServer\domains\yii2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/user
+---
